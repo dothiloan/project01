@@ -20,6 +20,22 @@ $widthRegister: 535px
     height: 365px  
     margin-left: 100px
     margin-right: 70px
+=textColorBlue()
+    margin-left: 0px
+    margin-top: 0px
+    margin-bottom: 25px
+    color: #0f5599
+    font:
+        family: OpenSans
+        size: 18px
+=textColorGray
+    margin-left: 0px
+    margin-top: 0px
+    margin-bottom: 0px
+    color: gray
+    font:
+        family: OpenSans
+        size: 14px
 *
     margin: 0px
     padding: 0px
@@ -221,21 +237,9 @@ $widthRegister: 535px
                     margin-left: 60px
                     margin-bottom: 50px
                 .textBlue
-                    margin-left: 0px
-                    margin-top: 0px
-                    margin-bottom: 25px
-                    color: #0f5599
-                    font:
-                        family: OpenSans
-                        size: 18px  
+                    +textColorBlue 
                 .textGray
-                    margin-left: 0px
-                    margin-top: 0px
-                    margin-bottom: 0px
-                    color: gray
-                    font:
-                        family: OpenSans
-                        size: 14px 
+                    +textColorGray
             .red
                 +colorBlock
                 float: left
@@ -244,21 +248,9 @@ $widthRegister: 535px
                     margin-left: 60px
                     margin-bottom: 50px
                 .textBlue
-                    margin-left: 0px
-                    margin-top: 0px
-                    margin-bottom: 25px
-                    color: #0f5599
-                    font:
-                        family: OpenSans
-                        size: 18px  
+                    +textColorBlue  
                 .textGray
-                    margin-left: 0px
-                    margin-top: 0px
-                    margin-bottom: 0px
-                    color: gray
-                    font:
-                        family: OpenSans
-                        size: 14px
+                    +textColorGray
             .yellow
                 +colorBlock
                 float: left
@@ -267,21 +259,9 @@ $widthRegister: 535px
                     margin-left: 60px
                     margin-bottom: 50px
                 .textBlue
-                    margin-left: 0px
-                    margin-top: 0px
-                    margin-bottom: 25px
-                    color: #0f5599
-                    font:
-                        family: OpenSans
-                        size: 18px  
+                    +textColorBlue 
                 .textGray
-                    margin-left: 0px
-                    margin-top: 0px
-                    margin-bottom: 0px
-                    color: gray
-                    font:
-                        family: OpenSans
-                        size: 14px 
+                   +textColorGray 
             .black
                 +colorBlock
                 float: left
@@ -290,21 +270,9 @@ $widthRegister: 535px
                     margin-left: 60px
                     margin-bottom: 50px
                 .textBlue
-                    margin-left: 0px
-                    margin-top: 0px
-                    margin-bottom: 25px
-                    color: #0f5599
-                    font:
-                        family: OpenSans
-                        size: 18px  
+                    +textColorBlue  
                 .textGray
-                    margin-left: 0px
-                    margin-top: 0px
-                    margin-bottom: 0px
-                    color: gray
-                    font:
-                        family: OpenSans
-                        size: 14px
+                    +textColorGray
         .khoi4
             height: 245px
             width: $widthWrapper
