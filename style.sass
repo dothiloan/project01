@@ -1,0 +1,428 @@
+$xanhdam: #01203d
+$mauchuheader: #66798a
+$mautrang: #fff
+$mausignin: #008cba
+$xanhnhat: #034888
+$signup: #81bc1e
+$fontsizeheader: 12px
+$fontfamilyheader: Myriad Pro
+$widthWrapper: 1300px
+$widthRegister: 535px
+=buttonHeader()
+    width: 125px
+    height: 47px
+    border: 1px solid $mauchuheader
+    border-radius: 5px 
+    color: $mautrang
+    cursor: pointer
+=colorBlock()
+    width: 216px
+    height: 365px  
+    margin-left: 100px
+    margin-right: 70px
+*
+    margin: 0px
+    padding: 0px
+    font-family: Myriad Pro
+.wrapper
+    width: $widthWrapper
+    border: 1px solid gray
+    margin: auto
+    header
+        height: 80px
+        width: 100%
+        background: $xanhdam
+        p
+            padding-top: 36px
+            text-align: right
+            padding-right: 60px
+            color: $mauchuheader
+            font:
+                size: $fontsizeheader
+                family: $fontfamilyheader 
+            span
+                color: $mausignin
+                margin-left: 25px
+    nav
+        width: 100%
+        height: 60px
+        background: $xanhdam
+        img
+            margin-left: 60px
+            margin-top: 10px
+            float: left
+        ul 
+            list-style: none
+            display: inline-block
+            li 
+                display: inline-block
+                margin-top: 15px
+                margin-left: 38px
+                a
+                    &:hover
+                        color: $mautrang
+                    text-decoration: none
+                    color: $mauchuheader
+                    font-family: $fontfamilyheader
+                    font-size: 16px
+        .contact
+            float: right
+            color: $mautrang
+            margin-bottom: 0px
+            span
+                img 
+                    margin-top: 15px
+            .demo
+                &:hover
+                    background: $signup
+                +buttonHeader
+                background: $xanhdam
+                margin-right: 20px
+            .signup
+                +buttonHeader
+                background: $signup
+                margin-right: 65px
+            b 
+                margin-right: 40px
+                margin-left: 5px
+    .content
+        .khoi1
+            width: 100%
+            height: 410px
+            background: url("images/cogai.png")
+            .register
+                width: $widthRegister  
+                background: $xanhnhat
+                height: 410px
+                float: left
+                .title
+                    font: 
+                        size: 38px
+                        family: $fontfamilyheader
+                    color: $mautrang
+                    margin-top: 35px
+                    margin-left: 55px
+                .content
+                    font-size: 12px
+                    color: $mautrang
+                    margin-left: 55px
+                    line-height: 18px
+                    word-spacing: 3px
+                form 
+                    margin-top: 25px
+                    #email
+                        width: 445px
+                        height: 35px
+                        border-radius: 3px
+                        border: 0px
+                        margin-left: 55px
+                        margin-bottom: 13px
+                        box-sizing: border-box
+                        padding: 15px
+                    #pass
+                        width: 220px
+                        height: 35px
+                        border-radius: 3px
+                        border: 0px
+                        margin-left: 55px
+                        box-sizing: border-box
+                        padding: 15px
+                    #phone
+                        width: 220px
+                        height: 35px
+                        border-radius: 3px
+                        border: 0px
+                        box-sizing: border-box
+                        padding: 15px
+                .orange
+                    margin-top: 20px
+                    margin-left: 55px
+                    width: 220px
+                    height: 65px
+                    border: 1px solid gray
+                    border-radius: 3px
+                    box-sizing: border-box
+                    padding: 15px
+                    float: left
+                    background: #e0741d
+                    .chuto
+                        color: $mautrang
+                        font-size: 19px
+                    .chunho
+                        color: $mautrang
+                        font-size: 10px
+                .green
+                    float: right
+                    margin-top: 20px
+                    margin-right: 36px
+                    width: 220px
+                    height: 65px
+                    border: 1px solid gray
+                    border-radius: 3px
+                    background: #72a61a
+                    box-sizing: border-box
+                    padding: 15px
+                    .chuto
+                        color: $mautrang
+                        font-size: 19px
+                    .chunho
+                        color: $mautrang
+                        font-size: 10px
+                .last
+                    font-size: 9px
+                    margin-left: 60px
+                    margin-top: 110px
+                    color: $mauchuheader
+                    span 
+                        color: $mautrang
+            .banner
+                width: ($widthWrapper - $widthRegister)
+                float: right
+                height: 410px
+                position: relative
+                img
+                    position: absolute
+                    top: 10px
+                    right: 155px
+        .khoi2
+            width: $widthWrapper
+            height: 100px
+            border-bottom: 1px solid gray
+            .text
+                color: $mauchuheader
+                margin-left: 95px
+                margin-right: 50px
+                margin-top: 50px
+                float: left
+            .thuonghieu ul
+                list-style: none
+                li 
+                    display: inline-block
+                    float: left
+                    margin-top: 30px
+                    margin-right: 35px
+        .khoi3
+            width: $widthWrapper
+            height: 480px
+            border-bottom: 1px solid gray
+            p 
+                margin-left: 160px
+                margin-top: 40px
+                margin-bottom: 55px
+                font:
+                    family: OpenSans
+                    size: 23px
+                span 
+                    font-weight: bold
+            .blue
+                +colorBlock
+                float: left
+                img 
+                    margin-left: 60px
+                    margin-bottom: 50px
+                .textBlue
+                    margin-left: 0px
+                    margin-top: 0px
+                    margin-bottom: 25px
+                    color: #0f5599
+                    font:
+                        family: OpenSans
+                        size: 18px  
+                .textGray
+                    margin-left: 0px
+                    margin-top: 0px
+                    margin-bottom: 0px
+                    color: gray
+                    font:
+                        family: OpenSans
+                        size: 14px 
+            .red
+                +colorBlock
+                float: left
+                margin-left: 0px
+                img 
+                    margin-left: 60px
+                    margin-bottom: 50px
+                .textBlue
+                    margin-left: 0px
+                    margin-top: 0px
+                    margin-bottom: 25px
+                    color: #0f5599
+                    font:
+                        family: OpenSans
+                        size: 18px  
+                .textGray
+                    margin-left: 0px
+                    margin-top: 0px
+                    margin-bottom: 0px
+                    color: gray
+                    font:
+                        family: OpenSans
+                        size: 14px
+            .yellow
+                +colorBlock
+                float: left
+                margin-left: 0px
+                img 
+                    margin-left: 60px
+                    margin-bottom: 50px
+                .textBlue
+                    margin-left: 0px
+                    margin-top: 0px
+                    margin-bottom: 25px
+                    color: #0f5599
+                    font:
+                        family: OpenSans
+                        size: 18px  
+                .textGray
+                    margin-left: 0px
+                    margin-top: 0px
+                    margin-bottom: 0px
+                    color: gray
+                    font:
+                        family: OpenSans
+                        size: 14px 
+            .black
+                +colorBlock
+                float: left
+                margin-left: 0px
+                img 
+                    margin-left: 60px
+                    margin-bottom: 50px
+                .textBlue
+                    margin-left: 0px
+                    margin-top: 0px
+                    margin-bottom: 25px
+                    color: #0f5599
+                    font:
+                        family: OpenSans
+                        size: 18px  
+                .textGray
+                    margin-left: 0px
+                    margin-top: 0px
+                    margin-bottom: 0px
+                    color: gray
+                    font:
+                        family: OpenSans
+                        size: 14px
+        .khoi4
+            height: 245px
+            width: $widthWrapper
+            border-bottom: 1px solid gray
+            .textAvatar
+                float: left
+                margin-top: 55px
+                margin-left: 100px
+                p
+                    color: #3e3e3e
+                    font:
+                        family: OpenSans
+                        size: 19px 
+                    span 
+                        color: black
+                        font-weight: bold
+                p.author 
+                    margin-top: 25px
+                    color: gray
+                    font:
+                        family: OpenSans
+                        size: 12px  
+            .avatar
+                img 
+                    float: right
+                    margin-top: 40px
+                    margin-right: 115px
+    .footer
+        width: $widthWrapper
+        height: 260px
+        .cot1
+            margin-left: 100px
+            margin-top: 40px
+            float: left
+            .navigation
+                margin-bottom: 20px
+                color: black
+                font:
+                    family: OpenSans
+                    size: 10px
+                    weight: bold
+            ul 
+                list-style: none
+                display: inline-block
+                a 
+                    text-decoration: none
+                    color: #008cba
+                    font-size: 10px
+        .cot2
+            float: left
+            margin-left: 130px
+            margin-top: 40px
+            .resources
+                margin-bottom: 20px
+                color: black
+                font:
+                    family: OpenSans
+                    size: 10px
+                    weight: bold
+            ul 
+                list-style: none
+                display: inline-block
+                a 
+                    text-decoration: none
+                    color: #008cba
+                    font-size: 10px
+        .cot3
+            float: left
+            margin-left: 105px
+            margin-top: 40px
+            .latest
+                margin-bottom: 20px
+                color: black
+                font:
+                    family: OpenSans
+                    size: 10px
+                    weight: bold
+            ul 
+                list-style: none
+                display: inline-block
+                a 
+                    text-decoration: none
+                    color: #008cba
+                    font-size: 10px
+        .cot4
+            float: left
+            margin-left: 100px
+            margin-top: 40px
+            position: relative
+            .getInTough
+                margin-bottom: 20px
+                color: black
+                font:
+                    family: OpenSans
+                    size: 10px
+                    weight: bold  
+            .address
+                color: gray
+                margin-bottom: 20px
+                font:
+                    family: OpenSans
+                    size: 10px
+            img 
+                float: left
+                margin-right: 60px
+                position: absolute
+                top: 50px
+                left: 125px
+    .copyright
+        height: 100px
+        margin-left: 100px
+        margin-top: 40px
+        p
+            color: gray
+            font:
+                family: OpenSans
+                size: 10px 
+
+                    
+
+                    

@@ -1,0 +1,567 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Myriad Pro;
+}
+
+.wrapper {
+  width: 1300px;
+  border: 1px solid gray;
+  margin: auto;
+}
+
+.wrapper header {
+  height: 80px;
+  width: 100%;
+  background: #01203d;
+}
+
+.wrapper header p {
+  padding-top: 36px;
+  text-align: right;
+  padding-right: 60px;
+  color: #66798a;
+  font-size: 12px;
+  font-family: Myriad Pro;
+}
+
+.wrapper header p span {
+  color: #008cba;
+  margin-left: 25px;
+}
+
+.wrapper nav {
+  width: 100%;
+  height: 60px;
+  background: #01203d;
+}
+
+.wrapper nav img {
+  margin-left: 60px;
+  margin-top: 10px;
+  float: left;
+}
+
+.wrapper nav ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.wrapper nav ul li {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 38px;
+}
+
+.wrapper nav ul li a {
+  text-decoration: none;
+  color: #66798a;
+  font-family: Myriad Pro;
+  font-size: 16px;
+}
+
+.wrapper nav ul li a:hover {
+  color: #fff;
+}
+
+.wrapper nav .contact {
+  float: right;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.wrapper nav .contact span img {
+  margin-top: 15px;
+}
+
+.wrapper nav .contact .demo {
+  width: 125px;
+  height: 47px;
+  border: 1px solid #66798a;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  background: #01203d;
+  margin-right: 20px;
+}
+
+.wrapper nav .contact .demo:hover {
+  background: #81bc1e;
+}
+
+.wrapper nav .contact .signup {
+  width: 125px;
+  height: 47px;
+  border: 1px solid #66798a;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  background: #81bc1e;
+  margin-right: 65px;
+}
+
+.wrapper nav .contact b {
+  margin-right: 40px;
+  margin-left: 5px;
+}
+
+.wrapper .content .khoi1 {
+  width: 100%;
+  height: 410px;
+  background: url("images/cogai.png");
+}
+
+.wrapper .content .khoi1 .register {
+  width: 535px;
+  background: #034888;
+  height: 410px;
+  float: left;
+}
+
+.wrapper .content .khoi1 .register .title {
+  font-size: 38px;
+  font-family: Myriad Pro;
+  color: #fff;
+  margin-top: 35px;
+  margin-left: 55px;
+}
+
+.wrapper .content .khoi1 .register .content {
+  font-size: 12px;
+  color: #fff;
+  margin-left: 55px;
+  line-height: 18px;
+  word-spacing: 3px;
+}
+
+.wrapper .content .khoi1 .register form {
+  margin-top: 25px;
+}
+
+.wrapper .content .khoi1 .register form #email {
+  width: 445px;
+  height: 35px;
+  border-radius: 3px;
+  border: 0px;
+  margin-left: 55px;
+  margin-bottom: 13px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.wrapper .content .khoi1 .register form #pass {
+  width: 220px;
+  height: 35px;
+  border-radius: 3px;
+  border: 0px;
+  margin-left: 55px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.wrapper .content .khoi1 .register form #phone {
+  width: 220px;
+  height: 35px;
+  border-radius: 3px;
+  border: 0px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.wrapper .content .khoi1 .register .orange {
+  margin-top: 20px;
+  margin-left: 55px;
+  width: 220px;
+  height: 65px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding: 15px;
+  float: left;
+  background: #e0741d;
+}
+
+.wrapper .content .khoi1 .register .orange .chuto {
+  color: #fff;
+  font-size: 19px;
+}
+
+.wrapper .content .khoi1 .register .orange .chunho {
+  color: #fff;
+  font-size: 10px;
+}
+
+.wrapper .content .khoi1 .register .green {
+  float: right;
+  margin-top: 20px;
+  margin-right: 36px;
+  width: 220px;
+  height: 65px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  background: #72a61a;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.wrapper .content .khoi1 .register .green .chuto {
+  color: #fff;
+  font-size: 19px;
+}
+
+.wrapper .content .khoi1 .register .green .chunho {
+  color: #fff;
+  font-size: 10px;
+}
+
+.wrapper .content .khoi1 .register .last {
+  font-size: 9px;
+  margin-left: 60px;
+  margin-top: 110px;
+  color: #66798a;
+}
+
+.wrapper .content .khoi1 .register .last span {
+  color: #fff;
+}
+
+.wrapper .content .khoi1 .banner {
+  width: 765px;
+  float: right;
+  height: 410px;
+  position: relative;
+}
+
+.wrapper .content .khoi1 .banner img {
+  position: absolute;
+  top: 10px;
+  right: 155px;
+}
+
+.wrapper .content .khoi2 {
+  width: 1300px;
+  height: 100px;
+  border-bottom: 1px solid gray;
+}
+
+.wrapper .content .khoi2 .text {
+  color: #66798a;
+  margin-left: 95px;
+  margin-right: 50px;
+  margin-top: 50px;
+  float: left;
+}
+
+.wrapper .content .khoi2 .thuonghieu ul {
+  list-style: none;
+}
+
+.wrapper .content .khoi2 .thuonghieu ul li {
+  display: inline-block;
+  float: left;
+  margin-top: 30px;
+  margin-right: 35px;
+}
+
+.wrapper .content .khoi3 {
+  width: 1300px;
+  height: 480px;
+  border-bottom: 1px solid gray;
+}
+
+.wrapper .content .khoi3 p {
+  margin-left: 160px;
+  margin-top: 40px;
+  margin-bottom: 55px;
+  font-family: OpenSans;
+  font-size: 23px;
+}
+
+.wrapper .content .khoi3 p span {
+  font-weight: bold;
+}
+
+.wrapper .content .khoi3 .blue {
+  width: 216px;
+  height: 365px;
+  margin-left: 100px;
+  margin-right: 70px;
+  float: left;
+}
+
+.wrapper .content .khoi3 .blue img {
+  margin-left: 60px;
+  margin-bottom: 50px;
+}
+
+.wrapper .content .khoi3 .blue .textBlue {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  color: #0f5599;
+  font-family: OpenSans;
+  font-size: 18px;
+}
+
+.wrapper .content .khoi3 .blue .textGray {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: gray;
+  font-family: OpenSans;
+  font-size: 14px;
+}
+
+.wrapper .content .khoi3 .red {
+  width: 216px;
+  height: 365px;
+  margin-left: 100px;
+  margin-right: 70px;
+  float: left;
+  margin-left: 0px;
+}
+
+.wrapper .content .khoi3 .red img {
+  margin-left: 60px;
+  margin-bottom: 50px;
+}
+
+.wrapper .content .khoi3 .red .textBlue {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  color: #0f5599;
+  font-family: OpenSans;
+  font-size: 18px;
+}
+
+.wrapper .content .khoi3 .red .textGray {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: gray;
+  font-family: OpenSans;
+  font-size: 14px;
+}
+
+.wrapper .content .khoi3 .yellow {
+  width: 216px;
+  height: 365px;
+  margin-left: 100px;
+  margin-right: 70px;
+  float: left;
+  margin-left: 0px;
+}
+
+.wrapper .content .khoi3 .yellow img {
+  margin-left: 60px;
+  margin-bottom: 50px;
+}
+
+.wrapper .content .khoi3 .yellow .textBlue {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  color: #0f5599;
+  font-family: OpenSans;
+  font-size: 18px;
+}
+
+.wrapper .content .khoi3 .yellow .textGray {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: gray;
+  font-family: OpenSans;
+  font-size: 14px;
+}
+
+.wrapper .content .khoi3 .black {
+  width: 216px;
+  height: 365px;
+  margin-left: 100px;
+  margin-right: 70px;
+  float: left;
+  margin-left: 0px;
+}
+
+.wrapper .content .khoi3 .black img {
+  margin-left: 60px;
+  margin-bottom: 50px;
+}
+
+.wrapper .content .khoi3 .black .textBlue {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  color: #0f5599;
+  font-family: OpenSans;
+  font-size: 18px;
+}
+
+.wrapper .content .khoi3 .black .textGray {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: gray;
+  font-family: OpenSans;
+  font-size: 14px;
+}
+
+.wrapper .content .khoi4 {
+  height: 245px;
+  width: 1300px;
+  border-bottom: 1px solid gray;
+}
+
+.wrapper .content .khoi4 .textAvatar {
+  float: left;
+  margin-top: 55px;
+  margin-left: 100px;
+}
+
+.wrapper .content .khoi4 .textAvatar p {
+  color: #3e3e3e;
+  font-family: OpenSans;
+  font-size: 19px;
+}
+
+.wrapper .content .khoi4 .textAvatar p span {
+  color: black;
+  font-weight: bold;
+}
+
+.wrapper .content .khoi4 .textAvatar p.author {
+  margin-top: 25px;
+  color: gray;
+  font-family: OpenSans;
+  font-size: 12px;
+}
+
+.wrapper .content .khoi4 .avatar img {
+  float: right;
+  margin-top: 40px;
+  margin-right: 115px;
+}
+
+.wrapper .footer {
+  width: 1300px;
+  height: 260px;
+}
+
+.wrapper .footer .cot1 {
+  margin-left: 100px;
+  margin-top: 40px;
+  float: left;
+}
+
+.wrapper .footer .cot1 .navigation {
+  margin-bottom: 20px;
+  color: black;
+  font-family: OpenSans;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.wrapper .footer .cot1 ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.wrapper .footer .cot1 ul a {
+  text-decoration: none;
+  color: #008cba;
+  font-size: 10px;
+}
+
+.wrapper .footer .cot2 {
+  float: left;
+  margin-left: 130px;
+  margin-top: 40px;
+}
+
+.wrapper .footer .cot2 .resources {
+  margin-bottom: 20px;
+  color: black;
+  font-family: OpenSans;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.wrapper .footer .cot2 ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.wrapper .footer .cot2 ul a {
+  text-decoration: none;
+  color: #008cba;
+  font-size: 10px;
+}
+
+.wrapper .footer .cot3 {
+  float: left;
+  margin-left: 105px;
+  margin-top: 40px;
+}
+
+.wrapper .footer .cot3 .latest {
+  margin-bottom: 20px;
+  color: black;
+  font-family: OpenSans;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.wrapper .footer .cot3 ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.wrapper .footer .cot3 ul a {
+  text-decoration: none;
+  color: #008cba;
+  font-size: 10px;
+}
+
+.wrapper .footer .cot4 {
+  float: left;
+  margin-left: 100px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.wrapper .footer .cot4 .getInTough {
+  margin-bottom: 20px;
+  color: black;
+  font-family: OpenSans;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.wrapper .footer .cot4 .address {
+  color: gray;
+  margin-bottom: 20px;
+  font-family: OpenSans;
+  font-size: 10px;
+}
+
+.wrapper .footer .cot4 img {
+  float: left;
+  margin-right: 60px;
+  position: absolute;
+  top: 50px;
+  left: 125px;
+}
+
+.wrapper .copyright {
+  height: 100px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.wrapper .copyright p {
+  color: gray;
+  font-family: OpenSans;
+  font-size: 10px;
+}
